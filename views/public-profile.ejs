@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Welcome <%= user.name %></h2>
+        </div>
+        <div class="col-md-4">
+            <button class="btn btn-primary text-white"><a href="">Get Back to Dashboard</a></button>
+        </div>
+    </div>
+    <table class="table">
+        <tr>
+          <td>LinkedIn:</td>
+          <td><%= user.linkedin %></td>
+        </tr>
+        <tr>
+          <td>GitHub:</td>
+          <td><%= user.github %></td>
+        </tr>
+        <tr>
+          <td>Twitter:</td>
+          <td><%= user.twitter %>
+          </td>
+        </tr>
+        <tr>
+          <td>Facebook:</td>
+          <td><%= user.facebook %></td>
+        </tr>
+    </table>
+</div>
